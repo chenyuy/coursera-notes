@@ -3,7 +3,8 @@
 ## Week 5: Lists
 - `length`, `last`, `init`, `take n`, `drop n`, `xs(n)`, `++` (concatenation), `reverse`, `updated(n, x)`, `indexOf x`, `contains x`
 - Takes time propotional to the length of list
-- Quizz
+- Quiz
+
 ```scala
 	def flatten(xs: List[Any]): List[Any] = xs match {
 	  case List() => List()
@@ -14,6 +15,7 @@
 	}
 ```
 - pair and tuple: (nesting) pattern matching
+
 ```scala
 	def merge(xs: List[Int], ys: List[Int]): List[Int] = (xs, ys) match {
 	  case (Nil, _) => ys
@@ -22,6 +24,7 @@
 	}
 ```
 - Parameterization: `scala.math.Ordering[T]`
+
 ```scala
 def msort[T](xs: List[T], ys: List[T])(ord: Ordering[T]): List[T] =
 	...
@@ -30,6 +33,7 @@ msort(nums)((x, y) => x < y)
 -	Implicit parameters: avoid passing certain parameters
 	- Compiler figures out the right implicit definiton based on demanded type
 	- The implicit definition must be marked as implicit, has a compatible type T and visible or defined in a companion object associated with type T
+
 ```scala
 def msort[T](xs: List[T], ys: List[T])(implicit ord: Ordering[T]): List[T] =
 	...
