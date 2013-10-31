@@ -217,3 +217,8 @@ def cons[T](hd: T, tl: => Stream[T]): Stream[T] = {
 }
 ```
 
+### Infinite Streams
+
+```scala
+def from(x: Int): Stream[Int] = x #:: from(x + 1)
+```
