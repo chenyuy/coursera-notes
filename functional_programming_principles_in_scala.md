@@ -184,3 +184,36 @@ def fun(bindings: (Int, Double)*) = ???
 ### Option
 - None | Some value
 - Use pattern matching for it
+
+## Week 7
+
+### Streams
+- Similar to list, but tail is only evaluated on demand
+
+```scala
+val xs = Stream.cons(1, Stream.cons(2, Stream.empty))
+Stream(1, 2, 3)
+(100 to 1000).toStream
+x #:: xs = Stream.cons(x, xs)
+
+def cons[T](hd: T, tl: => Stream]T) = new Stream[T] {
+	// ...
+	// tl is a call by name parameter
+	// It is not evaluated when passed to cons
+}
+```
+
+### Lazy Evaluation
+- Store the result of an evalution and return it when it is called again
+- Unpredicable when the computation happens and how much space it needs
+- Scala uses strict evaluation by default
+
+```scala
+// more efficient implementation of Stream.cons
+def cons[T](hd: T, tl: => Stream[T]): Stream[T] = {
+	def head = hd
+	lazy val tail = tl
+	// ...
+}
+```
+
