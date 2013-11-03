@@ -15,12 +15,18 @@
 
 #### Model Representation
 - Training data ( (x1, y1), (x2, y2), ... )-> learning algorithm -> hypothesis
-- A linear regression - hypothesis(x) = theta0 + theta1 * x = y (output)
+- A linear regression:
+
+<div align="center" ><img src="http://latex.codecogs.com/gif.latex?h_{\theta}(x)%20=%20\theta_{0}%20+%20\theta_{1}x" /></div>
 
 #### Cost Function
 - thetas: parameters
 - Different parameters give different hypothesis
 - Come up with paramters that fit the data well - choose paramters so that h(x) is close to y for training example (x, y)
-- One cost function: J(theta0, theta1) = ( 1/2m sum((h(xi) - yi))^2 ) over i = 1 to i
-- Goal: min(J(theta0, theta1))
+- One cost function:
+
+<div align="center" ><img src="http://latex.codecogs.com/gif.latex?J(\theta_{0},%20\theta_{1})%20=%20\sum\limits_{i=1}^m%20\frac{1}{2m}(h_{\theta}(x^{i})%20-%20y^{i})^2" /></div>
+- Goal:
+
+<div align="center"><img src="http://latex.codecogs.com/gif.latex?\underset{\theta_{0},%20\theta{1}}{\test{minimize}}J(\theta_{0},%20\theta_{1})"></div>
 - Intuition: sum of distance between hypothesis and the actual values
