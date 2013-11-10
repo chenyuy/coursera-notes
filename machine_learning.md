@@ -59,7 +59,7 @@
 <div align="center"><img src="http://latex.codecogs.com/gif.latex?J(\theta)%20=%20\sum\limits_{i=1}^m%20\frac{1}{2m}(h_{\theta}(x^{i})%20-%20y^{i})^2" /></div>
 - Algorithm:
 
-<div align="center"><img src="http://latex.codecogs.com/gif.latex?\theta_{j}:=\theta_{j}-\alpha\frac{1}{m}\sum\limits_{n=1}^m(h_{\theta}(x^{(i)})-y^{(i)})x^{(i)}_{j}" /></div>
+<div align="center"><img src="http://latex.codecogs.com/gif.latex?\theta_{j}:=\theta_{j}-\alpha\frac{1}{m}\sum\limits_{i=1}^m(h_{\theta}(x^{(i)})-y^{(i)})x^{(i)}_{j}" /></div>
 - Simultaneously update all parameters
 - Have the same form as gradient descent with single variable
 
