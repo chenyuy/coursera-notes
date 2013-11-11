@@ -235,3 +235,175 @@
 	- On the Border
 		- "Best of My Love"
 	- One of These Nights
+
+## Week 2
+### Black Pop
+- Separation from White Rock (AM Radio)
+- But share a lot with White Rock
+
+### Sly Stone and the Rise of Funk
+-Sly and Family Stone
+	- Psychedelic Soul
+		- Set up a Groove
+		- Catchy lyric
+	 		- "Dance to the Music"
+	 		- "Stand/I Want to Take You Higher"
+- Ohio Players
+	- "Funky Worm"
+	- "Fire"
+	- "Love Rollercoaster"
+- Kool and the Gang
+	- Wile and Peaceful
+		- "Jungle Boogie"
+		- "Hollywood Swinging"
+		- "Ladies Night"
+		- "Celebration"
+- Earth, Wind and FIre
+	- Sophisticated horn arrangement
+	- That's the Way of the World
+		- "Shinning Star"
+	- "Got to Get You into My Life"
+- Tower of Power
+	- Tower of Power
+		- "What is Hip?"
+- War
+	- Eric Burdon Declares War
+		- "Spill the Wine"
+	- The World is a Ghetto
+		- "Cisco Kid"
+		- "Low Rider"
+
+### Motown
+- Mostly in LA
+- Artists take more control
+- The Temptations
+	- Relate a lot to urban life
+	- "Cloud Nine"
+	- "Pshchedelic Shack"
+	- "Papa Was A Rolling Stone"
+- Commandores
+	- Roots in funck music
+		- "Brick House"
+	- Ballad tune
+		- "Easy"
+		- "Three Times a Lady"
+- The Jackson 5 / The Jacksons
+	- "ABC"
+	- "I'll Be There"
+	- "Shake Your Body (Down to the Ground"
+- Michael Jackson
+	- Off the Wall - (Disco album)
+- Marvin Gaye
+	- What's Going On - (Concept album)
+- Stevie Wonder
+	- Use of synthesizers
+	- Talking Book
+	- Innervisons
+		- "Living for the City"
+	- Songs in the Key of Life
+
+### Philadelphia Sound
+- Started from Kenny Gamble, Leon Huff
+- Lyrical vocals
+- Driving rhythm sections
+- Elegant string arrangements
+- Roots in sweet soul
+- Harold Melvin and the Blue Notes
+	- "If You Don't Love Me By Now"
+- Billy Paul
+	- "Me and Mrs. Jones"
+- Lou Rawls
+	- "You'll Never Find a Another Love Like Mine"
+- O'Jays
+	- "Back Stabbers"
+	- "Love Train"
+- MFSB
+	- Play as a back band on a lot of records
+	- "TSOP"
+- Thom Bell also produced some groups
+- The Spinners
+	- "I'll Be Around"
+- The Stylistics
+	- Avco
+- Soul Train - TV Show
+	- Target at black audience
+	- American bandstand
+
+### Blaxploitation Soundtracks
+- Movies: important step for film making for black actors / directors
+- Sweet Sweetback's Baadasssss Song
+- Frequently has soundtracks produced by Black Pop artists
+- Issac Hayes
+	- Roots at Stax
+	- Presenting Issac Hayes
+	- Hot Buttered Soul
+		- "By the Time I got to Phoenix"
+		- "Walk on By"
+	- Shaft
+		- "Theme from Shaft"
+- Curtis Mayfield
+	- Constantly on TV
+	- Super Fly
+		- "Freddy's Dead"
+		- "Super Fly"
+
+### James Brown George Clinton and Parliament Funkadelic
+- James Brown
+	- Groove
+	- Serious Lyrics
+	- Guitar, bass and drum interlocked inside sophisticated structure
+	- "Super Bad"
+	- "The Payback"
+	- Black Caesear
+- George Clinton
+	- Style elements from James Brown
+	- Bussiness approach
+	- "I Wanna Testify"
+	- Osmium
+	- Up for the Down Stroke
+	- Mothership Conncetion
+		- "Tear the Roof off the Sucker"
+- Average White Band
+	- AWB
+		- "Pick Up the Pieces"
+	- Cut the Cake
+
+### The Rise of Reggae
+- Jamaica could receive radio from New Orlen
+- The Harder They Come
+	- Through soundtrack American audience were exposed to reggae
+- Eric Clapton
+	- 461 Ocean Boulevard
+		- "I Shot the Sheriff" - first raggae hit white rockers heard
+- The Sound System Men
+	- Scratch songs from record
+- The Wailers - Bob Marley and ...
+	- Catch a Fire
+	- Burning
+		- "I Shot the Sheriff"
+	- Rastaman Vibration
+	- Exodus
+
+### Disco
+- Not liked by white rockers
+	- Dance craze
+	- misunderstanding of black pop
+	- not hippie aesthetic
+- For dance
+- Sometimes no guitar, bass, drum players
+	- In early days, gay club needed to play music for dancing, but bands were not willing to play the gigs
+- Saturday Night Fever - a film
+	- Disco became the major deal for disco
+- The return of producers - control records
+- Donna Summer
+	- "Love to Love You Baby"
+	- Bad Girls - concept album
+- Village People
+	- "YMCA"
+	- "In the Navy"
+- Backlash against Disco
+	- Anti disco rally
+	- Reaction against promiscuity - not good reason
+	- Homophobia - not good reason
+	- Racism
+	- Assult on the hippie asethetic
