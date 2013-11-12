@@ -56,7 +56,7 @@
 - Three Dog Night
 	- "Mama Told Me (Not to Come)"
 - Grand Funk Railroad
-	- Blues and orchestral elements\
+	- Blues and orchestral elements
 	- "I am Your Caption (Closer to Home)"
 	- "We are A American Band"
 - Aerosmith
