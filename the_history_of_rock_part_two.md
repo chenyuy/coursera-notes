@@ -407,3 +407,246 @@
 	- Homophobia - not good reason
 	- Racism
 	- Assult on the hippie asethetic
+
+## Week 3
+- Push back against hippie aesthetic
+- The rise of big album
+- Development of FM radio
+- Gigantic stadium shows = tremendous profits
+
+### Mainstream Rock in 1975-1980
+- FM radion changes
+	- Construct play list so that more people will listen
+	- In order to sell ads
+	- Highly-formatted
+- Concert circuit moves
+- Mega album
+- Peter Frampton
+	- Frampton Comes Alive!
+	- First mega album
+	- Famous for using talk box
+- Eages
+	- Hotel California
+		 - "New Kid in Town"
+		 - "Hotel California"
+		 - "Life in the Fast Lane"
+	- The Long Run
+- Fleetwood Mac
+	- "Albatross"
+	- Fleetwood Mac
+		- "Over My Head"
+		- "Rhiannon"
+		- "Say You Love Me"
+	- Rumours
+		- "Dreams"
+		- "Go Your Own Way"
+		- "Don't Stop"
+
+### Continuities
+- The Roling Stones
+	- Still top on the charts
+	- Black and Blue
+		- "Fool to Cry"
+	- Some Girls
+		- "Beast of Burden"
+		- "Miss You"
+	- Emotional Rescue
+- John Lennon
+	- Double Fantasy
+		- "Just Like Starting Over"
+- Paul McCarty and Wings
+	- Band on the Run
+		- "Band on the Run"
+	- Wings at the Speed of Sound
+		- "Silly Love Songs"
+	- London Town
+		- "With Little Luck"
+- Steve Miller Band
+	- The Joker
+	- Fly Like an Eagle
+		- "Rock 'n' Me"
+- Doobie Brothers
+	- Taknin' It to the Street
+	- Minute by Minute
+- Boston
+	- Boston
+		- "More Than a Feeling"
+		- "Foreplay / Long Time"
+- Foreigner
+	- Feels Like the First Time
+		- "Cold as Ice"
+- Journey
+	- Infinity
+		- "Lights"
+		- "Feelin that Ways"
+	- Differently marketed towards women
+- Cheap Trick
+	- Cheap Trick at Budokan
+		- "I Want You to Want Me"
+- Van Halen
+	- Van Halen
+		- "Runnin' with the Devil"
+		- Pop sensitivity underneath
+
+### Leaner Progressive, Louder Singer-Songwriters
+- Genesis
+	- A Trick of the Tail
+- Emerson, Lake & Palmer
+	- Works, Vol 1 and 2
+- Jethro Tull
+	- Songs from the Wood
+- Yes
+	- Going for the One
+- Other groups take the prog leaner, more radio-friendly, blend in some blues-rock
+- Kansas
+	- Leftoverture
+	- Point of No Return
+		- "Dust in the Wind"
+- Styx
+	- The Grand Illusion
+		- "Come Sail Away"
+- Rush
+	- Biggest group to push progressive rock on to the scene
+	- "Fly By Night"
+	- 2112 - concept album
+	- "The Spirt of Radio"
+	- "Tom Sawyer"
+- The Alan Parsons Project
+	- I, Robot
+- Electric Light Orchestra
+	- Eldorado
+		- "Can't Get It off My Head"
+- Queen
+	- A Night at the Opera
+		- "Bohemian Rhapsody"
+- Bob Dylan
+	- Blood on the Tracks
+		- "Tangled up in the Blue"
+- Elton John
+	- Captain Fantastic and the Brown Dirt Cowboy
+		- "Someone Saved My Life Tonight"
+		- "Lucy in the Sky With Diamonds"
+		- "Philadelphia Freedom"
+- Paul Simon
+	- His Greatest Hits, etc.
+		- "Slip Sliding Away"
+	- One Trick Pony
+		- "Late in the Evening"
+- Billy Joel
+	- "The Piano Man"
+	- The Stranger
+		- "Just the Way You Are"
+- Jackson Brown
+	- Running on Empty
+- Bod Seger
+	- Night Moves
+		- "Main Street"
+- Bruce Springsteen
+	- Born to Run
+
+### US Punk
+- Return to simplicity
+- Rejections of hippie aesthetics
+- Music about confrontation
+- The Velvet Underground
+	- Lead a way to punk scene
+	- Exploding Plastic Inevitable
+	- The Velvet Underground and Nico
+		- "Heroin"
+		- "Venus in Furs"
+		- Darker side of the world
+- Iggy Pop
+	- Fun House
+- The MC5
+	- Kick Out the Jams
+- New York Dolls
+	- New York Dolls
+	- Too Much Too Soon
+- New York Punk Scene - CBGB
+	- Sunday night booked by a band
+- Patti Smith Group
+	- Horses
+		- "Gloria"
+- Television
+	- Marquee Moon
+- Ramones
+	- Ramones
+		- "Blitzkreig Bop"
+	- Not much commerical success
+- Blondie
+	- Parallel Lines
+- The New York scence is still pretty unknown
+
+### UK Punk
+- UK in financial trouble
+- A culture expression that is part of the life of the young person
+- Malcom MaLaren
+	- Saw the New York Dolls, wanted to get involved, but too late
+	- Renamed his shop to be SEX and sold fetish wear and leather clothing
+	- Puts up Sex Pistols
+- Sex Pistols
+	- Famous for notorious punk behavior
+	- No respect for any authority
+	- Never Mind the Bullucks, Here's the Sex Pistols
+		- "Anarchy in the UK"
+		- "God Save the Queen"
+	- Relatively short career
+	- Set up the punk approach
+- The Clash
+	- Political protestors
+	- The Clash
+		- "White Riot"
+	- London Calling
+		- "Train in the Vain (Standing by Me)"
+- The Buzzcocks
+	- Another Musci in a Different Kitchen
+- The Jam
+	- This is the Modern World
+	- All Mod Cons
+- Women groups
+	- Siouxsie and the Banshees
+	- The X-Ray Spex
+	- The Slits
+
+### American New Wave
+- Take the punk form and the danger out of it
+- Blondie
+- Talking Heads
+	- Talking Heads 77
+		- "Psycho Killer"
+	- More Songs About Building and Foods
+		- "Take Me to the River"
+- The Cars
+	- The Cars
+		- "My Best Friend's Girl"
+		- "Just What I Needed"
+- Tom Petty
+	- "American Girl"
+	- Damn the Torpedos
+		- "Don't Do Me Like That"
+- Devo
+	- Q: Are We Not Men? A: We're Devo
+		- "I Can't Get Enough Satisfaction"
+- B-52s
+	- B-52s
+		- "Rock Lobster"
+- The Knack
+	- Get the Knack
+		- "My Sharona"
+
+### British New Wave
+- Elvis Costello
+	- Appeared on Saturday Night Live; a lot of rock fans first saw new wave / punk from UK
+	- My Aim Is True
+	- This Year's Model
+		- "Pump it Up"
+		- "Radio Radio"
+- The Police
+	- Outlandos d'Amour
+		- "Roxanne"
+		- "Can't Stand Losing You"
+- Use ironic references to the past
+- Used to critique the present
+
+### Summary
+
