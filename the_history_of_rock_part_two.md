@@ -648,5 +648,6 @@
 - Use ironic references to the past
 - Used to critique the present
 
-### Summary
-
+### Summary Week 1 - 3
+- "The Hippie Aesthetic"
+- Rejection of the hippie aesthetic - disco and punk
