@@ -89,11 +89,12 @@
 	- For example, suppose we want to fit a model:
 
 <div align="center"><img src="http://latex.codecogs.com/gif.latex?h_{\theta}=\theta_{0}+\theta_{1}x_{1}+\theta_{2}x_{2}+\theta_{3}x_{3}=\theta_{0}+\theta_{1}(size)+\theta_{2}(size)^2+\theta_{3}(size)^3" /></div>
-	- We can turn it to a linear regression by having:
+	
+- We can turn it to a linear regression by having:
 
 <div align="center"><img src="http://latex.codecogs.com/gif.latex?x_{1}=(size)\hspace{5pt}x_{2}=(size)^2\hspace{5pt}x_{3}=(size)^3" /></div>
-	- Features scaling becomes very important
-	- By choosing different features you can get different model 
+- Features scaling becomes very important
+- By choosing different features you can get different model 
 
 ### Normal Equation
 - Method for solving theta analytically
@@ -124,3 +125,115 @@
 	- Too many features
 		- Delete some features or use regularization
 - pinv (pseudo inverse) in Octave will calculate correctly even X is not invertible
+
+## Week 3
+### Logistic Regression
+- Classification problmes
+	- Classify into "0" (negative class) or "1" (positive class)
+	- Or multi class problem (classify into "0", "1", "2", ...)
+- Can use linear regression
+	- Threshold classifier: > 0.5, predict "1", otherwise predict "0"
+	- Not a good idea
+		- Often it is right beacause you are lucky (e.g., specific training data)
+		- Output value can be > 1 or < 0 while we want output to be 0 or 1
+
+### Hypothesis Representation
+- Want prediction to be between 0 and 1
+- Use logistic (sigmoid) function
+
+<div align="center"><img src="http://latex.codecogs.com/gif.latex?h_{\theta}(x)=\frac{1}{1%20+%20\mathrm{e}^{-{\theta}^{\intercal}x}}" /></div>
+- Output can be interpreted as the probability that y = 1 given x, parameterized by theta
+
+### Desicion Boundary
+- Predict "1" if output >= 0.5, else predict "0"
+- If the underlying regression outputs >= 0, the output will be >= 0.5
+- Fit a line that separated the region where the hypothesis predicts 1 and that predicts 0
+	- The line is desicion booundary
+- Nonlinear decision boundaries
+	- Fit a polynominal desicion boundary
+
+### Cost Function
+- Take the cost function from linear regression
+
+<div align="center"><img src="http://latex.codecogs.com/gif.latex?J(\theta)=\frac{1}{m}\sum\limits_{i=1}^{m}Cost(h_{\theta}(x^{i}),y^{i})" /></div>
+<div align="center"><img src="http://latex.codecogs.com/gif.latex?Cost(h_{\theta}(x),y)=\frac{1}{2}(h_{\theta}(x)-y)^2" /></div>
+- This will give us a non-convex function (lots of local optima), because hypothesis uses logistic function
+- Cost function for logistic regression
+
+<div align="center"><img src="http://latex.codecogs.com/gif.latex?Cost(h_{\theta}(x),y)=\begin{cases}-\log(h_{\theta}(x))&\mbox{if%20}y=1\\%20-\log(1-h_{\theta}(x))&\mbox{if%20}y=0\end{cases}" /></div>
+- Capture the intuition that if y = h, cost is 0. If h = 0 and y = 1, the cost is infinity and vice versa.
+
+### Simplified Cost Function and Gradient Descent
+- A simpler cost function
+
+<div align="center"><img src="http://latex.codecogs.com/gif.latex?Cost(h_{\theta}(x),y)=-y\log(h_{\theta}(x))+(1-y)\log(1-h_{\theta}(x)})" /></div>
+<div align="center"><img src="http://latex.codecogs.com/gif.latex?J(\theta)=-\frac{1}{m}[\sum\limits_{i=1}^{m}y^{(i)}\log%20h_{\theta}(x^{(i)})+(1-y^{(i)})\log(1-h_{\theta}(x^{(i)}})]" /></div>
+
+- Can be derived from statistics using the principle of maximum liklihood
+- Convex function
+
+- To fit the parameters, minimize the cost function to get a set of parameters
+	- Use gradient descent, the algorithm looks idential to linear regression
+	- Feature scaling also applies to logistic regression
+
+### Advanced Optimization
+- Optimization algorithms
+	- Conjugate gradient
+	- BFGS
+	- L-BFGS
+- These algorithms
+	- No need to pick up a learning rate
+	- Often much faster to converge
+	- More complex
+
+### Multiclass Classification: One-vs-all
+- One-vs-all
+	- Suppose we have three classes
+	- Turn the training data into three separate binary classification problems
+	- Train three classifiers
+	- Pick the class i that maximizes h
+
+### The Problem of Overfitting
+- Underfit (high bias)
+	- Algorithm not fitting the data well
+- Overfit (high variance)
+	- If we have too many features, the learned hypothesis may fit the training set very well, but fail to generalize to new examples
+- Addressing overfitting
+	- Reduce number of features
+		- Manually select features
+		- Model selection to automatically select features
+		- It also throws away useful information\
+	- Regularization
+		- Keep all features, but reduce magnitude/values of parameter
+		- Works well if we have lots of features and each of them contributes a bit
+
+### Cost Function
+- If we have small values of parameters
+	- We have a simpler hypothesis
+	- Less prone to overfitting
+- Take cost function and shrink all parameters
+
+<div align="center"><img src="http://latex.codecogs.com/gif.latex?J(\theta)=-\frac{1}{2m}[\sum\limits_{i=1}^{m}(h_{\theta}(x^{(i)})-y^{(i)})^2+\lambda\sum\limits_{j=1}^{n}\theta_{j}^2]" /></div>
+- By convention, not penalizing theta0
+- Lambda is a regularization parameter
+	- Control the tradeoff between fitting the training set well and keeping parameters small
+	- Too large lambda will penalize parameters too much, thus causing underfitting
+
+### Regularized Linear Regression
+- Gradient descent
+	- Regualarization term shrinks theta a little for each iteration
+	- For j = 0, the update rule doesn't change
+	- For j = 1, 2, 3, ...
+
+<div align="center"><img src="http://latex.codecogs.com/gif.latex?\theta_{j}:=\theta_{j}-\alpha[\frac{1}{m}\sum\limits_{i=1}^{m}(h_{\theta}(x^{(x)})-y^{(i)})x_{j}^{(i)}+\frac{\lambda}{m}\theta_{j}]" /></div>
+- Normal Equation
+	- Non-invertibility
+		- Suppose number of training data <= number of features. If lambda > 0, the matrix will be invertable
+
+<div align="center"><img src="http://latex.codecogs.com/gif.latex?\theta=(X^\intercal%20X+\lambda%20\begin{bmatrix}0&&&\\&1&&\\&&\ddots&\\&&&1\end{bmatrix})^{-1}X^\intercal%20y" /></div>
+
+### Regularized Logistic Regression
+- Add the regularization term to the cost function
+	- Same update rule for linear regression
+
+<div align="center"><img src="http://latex.codecogs.com/gif.latex?\mbox{Regularization%20term:%20}\frac{1}{2m}\sum\limits_{j=1}^{n}\lambda\theta_{j}" /></div>
