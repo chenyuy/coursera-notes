@@ -14,3 +14,6 @@
 
 ## Week 5
 #### [Reading Notes](https://www.dropbox.com/s/khgjrz6pw7n00qx/proglang-002-lecture_slides-section5-section5sum.pdf)
+
+## Week 6
+#### [Reading Notes](https://www.dropbox.com/s/sxfje3s3gbbm9cb/proglang-002-lecture_slides-section6-section6sum.pdf)
