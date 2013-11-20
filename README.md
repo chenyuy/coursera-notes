@@ -7,3 +7,4 @@ A list of notes for classes I have taken (or am taking) at coursera.
 - [Survey of Music Technology](survey_of_music_technology.md)
 - [Machine Learning](machine_learning.md)
 - [The History of Rock, Part 2](the_history_of_rock_part_two.md)
+- [Principles of Reactive Programming](principles_of_reactive_programming.md)
