@@ -175,13 +175,15 @@ x = "def"
 - While loop
 	- The condition and command must be passed by name so that they are reevaluted in each iteration
 	- It is a tail recursion call
+
 ```Scala
-def WHILE(condition: => Boolean)(command: => Unit): Unit =
+def WHILE(condition: => Boolean)(command: => Unit): Unit = {
 	if(condition) {
 		command
 		WHILE(condition)(command)
 	}
 	else ()
+}
 
 def REPEAT(command: => Unit)(condition: => Unit): Unit = {
 	command
@@ -189,7 +191,6 @@ def REPEAT(command: => Unit)(condition: => Unit): Unit = {
 	else REPEAT(command)(condition)
 }
 ```
-
 - For loop in classical Java program cannot be modeled in Scala
 	- The arguments of for contain declaration of the variable *i* which is visible in other arguments and in the body]
 - Scala has a form of for loop
@@ -204,3 +205,4 @@ for(i <- until 3; j <- "abc") println(i + " " + j)
 
 // Translates to
 (1 until 3) foreach (i => "abc" foreach (j => println(i + " " + j)))
+```
