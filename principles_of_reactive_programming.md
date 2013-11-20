@@ -148,3 +148,59 @@ for(x <- m) yield x
 ```
 - many other types defining `flatMap` are monads
 - monads give useful guideline for designing library API
+
+## Week 2
+### Functions and State
+- Use substitution to rewrite functions
+- Rewriting can be done anywhere in the term, and all rewritings which terminate lead to the same solution
+- Stateful object
+	- World as a set of objects, some of which has states that change over time
+	- An object has a state if its behavior is influenced by its history
+	- Every form of mutable state is constructed from variables
+	- In Scala, use `var` instead of `val`
+
+```Scala
+var x: String = "abc"
+x = "def"
+```
+### Identity and Change
+- Without assignments, `var x = E; var y = E` are the same, where E is arbitrary expression. It can be substituded with `var x = E; var y = x`
+- This is called referential transparency
+- With assignments, the two are different
+- "being same" precisely means operational equivalence
+	- Suppose we have two definitions x and y, they are operational equivalence if no possible tests can distinguish them
+- Sustitution mode cannot be used
+
+### Loops
+- While loop
+	- The condition and command must be passed by name so that they are reevaluted in each iteration
+	- It is a tail recursion call
+```Scala
+def WHILE(condition: => Boolean)(command: => Unit): Unit =
+	if(condition) {
+		command
+		WHILE(condition)(command)
+	}
+	else ()
+
+def REPEAT(command: => Unit)(condition: => Unit): Unit = {
+	command
+	if(condition) ()
+	else REPEAT(command)(condition)
+}
+```
+
+- For loop in classical Java program cannot be modeled in Scala
+	- The arguments of for contain declaration of the variable *i* which is visible in other arguments and in the body]
+- Scala has a form of for loop
+
+```Scala
+for(i <- until 3) { System.out.println(i + " ") }
+```
+- For loop translation is similar to for-expression, but uses `foreach` combinator
+
+```Scala
+for(i <- until 3; j <- "abc") println(i + " " + j)
+
+// Translates to
+(1 until 3) foreach (i => "abc" foreach (j => println(i + " " + j)))
