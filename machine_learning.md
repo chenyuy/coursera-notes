@@ -237,3 +237,45 @@
 	- Same update rule for linear regression
 
 <div align="center"><img src="http://latex.codecogs.com/gif.latex?\mbox{Regularization%20term:%20}\frac{1}{2m}\sum\limits_{j=1}^{n}\lambda\theta_{j}" /></div>
+
+## Week 4: Neural Networks: Representation
+### Non-linear Hypothesis
+- Many features
+	- if include quadratic features, there are too many features and maybe overfitting
+	- if not, not enough features to fit the data set
+- Simple logistic regression with quadratic features added in is not a good way to learn complex hypothesis
+
+### Neurons and Brain
+- Origin: mimic brain
+- Popularity: 80s, early 90s, diminished later
+- Resurgence: more powerful computers
+
+### Model Representation
+- Neuron unit: logistic unit
+	- Feed in some inputs, the neuron does some computation and outputs
+	- A sigmoid(logistic) activation function
+- Network: neuron unit wired together
+	- Layer 1: input layer
+	- Layer 2: hidden layer, can have many
+	- Layer 3: output layer
+
+<div align="center"><img src="https://dl.dropboxusercontent.com/u/55685931/neural%20network%20representation.png" /></div>
+<div align="center"><img src="http://latex.codecogs.com/gif.latex?a_{i}^{(j)}=\mbox{%22activation%22%20of%20unit%20}i\mbox{%20in%20layer%20}j" /></div>
+<div align="center"><img src="http://latex.codecogs.com/gif.latex?\Theta^{(j)}=\mbox{matrix%20of%20weights%20controlling%20function%20mapping%20from%20layer%20j%20to%20layer%20j%20+%201}" /></div>
+<div align="center"><img src="http://latex.codecogs.com/gif.latex?a_{1}^{(2)}=g(\Theta_{10}^{(1)}x_{0}+\Theta_{11}^{(1)}x_{1}+\Theta_{12}^{(1)}x_{2}+\Theta_{13}^{(1)}x_{3})" /></div>
+<div align="center"><img src="http://latex.codecogs.com/gif.latex?a_{2}^{(2)}=g(\Theta_{20}^{(1)}x_{0}+\Theta_{21}^{(1)}x_{1}+\Theta_{22}^{(1)}x_{2}+\Theta_{23}^{(1)}x_{3})" /></div>
+<div align="center"><img src="http://latex.codecogs.com/gif.latex?a_{3}^{(2)}=g(\Theta_{30}^{(1)}x_{0}+\Theta_{31}^{(1)}x_{1}+\Theta_{32}^{(1)}x_{2}+\Theta_{33}^{(1)}x_{3})" /></div>
+<div align="center"><img src="http://latex.codecogs.com/gif.latex?h_{\Theta}(x)=a_{1}^{(3)}=g(\Theta_{10}^{(2)}a_{0}^{(2)}+\Theta_{11}^{(2)}a_{1}^{(2)}+\Theta_{12}^{(2)}a_{2}^{(2)}+\Theta_{13}^{(2)}a_{3}^{(2)})" /></div>
+
+- Forward propagation
+
+<div align="center"><img src="http://latex.codecogs.com/gif.latex?z^{(2)}=\Theta^{(1)}a^{(1)}\\a^{(2)}=g(z^{(2)})\\a^{(2)}_{0}=1\\z^{(3)}=\Theta^{(2)}a^{(2)}\\h_{\Theta}(x)=a^{(3)}=g(z^{(3)})" /></div>
+- Neural networks learn its own features
+	- Like logistic regression
+	- Use the computed features *a* insteand of the original feature *x*
+	- Hidden layer computed more complex features
+- Multi-class Classification
+	- Suppose we have four classes
+	- Have four output units
+	- Want [1 0 0 0] for class 1, [0 1 0 0] for class 2, and so on
+	- For training set, represent as [1 0 0 0] and so on
