@@ -314,7 +314,7 @@ For traning examples 1 to m
 
 <div align="center"><img src="http://latex.codecogs.com/gif.latex?D_{ij}^{(l)}:=\frac{1}{m}\Delta_{ij}^{(l)}+\lambda\Theta_{ij}^{(l)}\mbox{%20if%20}j\neq%200" /></div>
 
-<div align="center"><img src="http://latex.codecogs.com/gif.latex?D_{ij}^{(l)}:=\frac{1}{m}\Delta_{ij}^{(l)}\mbox{%20if%20}j\eq%200" /></div>
+<div align="center"><img src="http://latex.codecogs.com/gif.latex?D_{ij}^{(l)}:=\frac{1}{m}\Delta_{ij}^{(l)}\mbox{%20if%20}j=%200" /></div>
 
 - Formally delta is partial derivative of cost over *z*
 - delta of *(i - 1)* is calculated by deltas from *i* weighted by the parameters
