@@ -279,3 +279,79 @@
 	- Have four output units
 	- Want [1 0 0 0] for class 1, [0 1 0 0] for class 2, and so on
 	- For training set, represent as [1 0 0 0] and so on
+
+## Week 5 - Neural Networks: Learning
+### Cost Function
+
+<div align="center"><img src="http://latex.codecogs.com/gif.latex?J(\Theta)=-\frac{1}{m}[\sum\limits_{i=1}^{m}\sum\limits_{k=1}^{K}y_{k}^{(i)}\log%20(h_{\Theta}(x^{(i)}))_{k}+(1-y_{k}^{(i)})\log(1-(h_{\Theta}(x^{(i)}}))_{k}]+\frac{\lambda}{2m}\sum\limits_{j=l}^{L-1}\sum\limits_{i=1}^{s_{l}}\sum\limits_{j=1}^{s_{l+1}}(\Theta_{ji}^{l})^{2}" /></div>
+
+### Backpropagation Algorithm
+- Want to minimize cost function
+- Need to compute cost function and gradient
+- Intuition: calculate error of node j in layer l
+
+<div align="center"><img src="http://latex.codecogs.com/gif.latex?\delta_{j}^{(4)}=a_{j}^{(4)}-y_{j}" /></div>
+
+<div align="center"><img src="http://latex.codecogs.com/gif.latex?\delta_{j}^{(3)}=(\Theta^{(3)})^{\intercal}\delta^{(4)}.*g'(z^{(3)})" /></div>
+
+<div align="center"><img src="http://latex.codecogs.com/gif.latex?\delta_{j}^{(2)}=(\Theta^{(2)})^{\intercal}\delta^{(3)}.*g'(z^{(2)})" /></div>
+
+<div align="center"><img src="http://latex.codecogs.com/gif.latex?g'(z^{(i)})=a^{(i)}.*(1-a^{(i)})" /></div>
+
+- Backpropagation algorithm
+
+<div align="center"><img src="http://latex.codecogs.com/gif.latex?\mbox{Set%20}\Delta_{ij}^{(l)}=0" /></div>
+
+```
+For traning examples 1 to m
+	Set a(1) = x(i)
+	Perform forward propagation to compute a(l) for l = 2 to L
+	Using y(i) to compute delta(L) = a(L) - y(i)
+	Compute delta(L - 1) to delta(2)
+```
+
+<div style="padding-left: 6%"><img src="http://latex.codecogs.com/gif.latex?\Delta_{ij}^{(l)}:=\Delta_{ij}^{(l)}+a_{j}^{(l)}\delta_{i}^{(l+1)}" /></div>
+
+<div align="center"><img src="http://latex.codecogs.com/gif.latex?D_{ij}^{(l)}:=\frac{1}{m}\Delta_{ij}^{(l)}+\lambda\Theta_{ij}^{(l)}\mbox{%20if%20}j\neq%200" /></div>
+
+<div align="center"><img src="http://latex.codecogs.com/gif.latex?D_{ij}^{(l)}:=\frac{1}{m}\Delta_{ij}^{(l)}\mbox{%20if%20}j\eq%200" /></div>
+
+- Formally delta is partial derivative of cost over *z*
+- delta of *(i - 1)* is calculated by deltas from *i* weighted by the parameters
+
+### Gradient Checking
+- Calculate a approximate value of the derivative and compare with gradient
+
+```matlab
+for 1 = 1:n
+	thetaPlus = theta;
+	thetaPlus(i) = thetaPlus(i) + EPSILON;
+	thetaMinus = theta;
+	thetaMinus(i) = thetaPlus(i) - EPSILON;
+	gradApprox(i) = (J(thetaPlus) - J(thetaMinus)) / (2 * EPSILON);
+end;
+% Compare with gradient
+```
+
+- Turn off gradient checking once the code is verified to be correct
+
+### Random Initialization
+- Initial value of 0 does not work for neural networks
+	- All activiation ouputs are the same, the errors will also be same
+	- Gradient will be the same
+	- After each update, parameters corresponding to inputs going into each group of two hidden units are identical
+- Initial to be value between -epsilon and epsilon
+
+### Putting it together
+- Pick a network architecture
+	- Number of input units: dimension of input *x*
+	- Number of output units: number of classes
+	- Reasonable default: 1 hidden layer, or if >1 hiddent layer, use same number of hidden units in each layer (usually the more the better)
+- Training network
+	- Random initialization
+	- Implement forward propagation
+	- Implement cost function
+	- Implement back propagation to get derivatives
+	- Use gradient checking, then disable it
+	- Use gradient descent or other advanced algorithm to minimize cost function
+		- Cost function is non-convext, so will probably stuck in local minimium
