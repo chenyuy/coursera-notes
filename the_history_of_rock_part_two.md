@@ -425,7 +425,7 @@
 	- Frampton Comes Alive!
 	- First mega album
 	- Famous for using talk box
-- Eages
+- Eagles
 	- Hotel California
 		 - "New Kid in Town"
 		 - "Hotel California"
@@ -651,3 +651,731 @@
 ### Summary Week 1 - 3
 - "The Hippie Aesthetic"
 - Rejection of the hippie aesthetic - disco and punk
+
+## Week 4
+### The Rise of MTV
+- Influenced by cabel TV industry
+- The lack of promo videos
+	- Put band on the tour instead of making a video
+- Hard to convince labels to make video in U.S.
+- Audience conceived by MTV
+	- Middle class white young mid western people
+- Michael Jackson
+	- "Billie Jean"
+		- MTV not willing to put the video
+		- CBS insisted on it
+		- Became popular
+- Pros
+	- Open up new opportunities to music a video
+	- Music becomes a part of multimedia experience
+- Cons
+	- Too literal, restrict imagination
+	- Too dependent on image and look, not enough on music
+
+### Michael Jackson and Madonna
+- Shape the early MTV
+- Michael Jackson
+	- Off the Wall
+		- "Rock with Me"
+	- Thriller
+		- "Billie Jean"
+		- "Human Nature"
+		- "Wanna be Starting Something"
+		- "P.Y.T."
+		- "The Girl is Mine"
+		- "Beat It"
+		- "Thriller"
+			- Ambitious video
+		- Reach across to white audience
+	- Bad
+		- "Man in the Mirror"
+- Madonna
+	- Madonna
+		- "Holiday"
+		- "Lucky Star"
+	- Like a Virgin
+		- "Material Girl"
+		- "Angel"
+		- "Dress You Up"
+		- Performance at MTV Video Music Awards (1984)
+			- Shock people, controversy
+	- True Blue
+	- Like a Prayer
+	- Cast a long shadow on women
+		- Women can take control of their career
+
+### Prince and Janet Jackson
+- Prince
+	- Prolifiric
+	- Prince
+		- "I Wanna be Your Love"
+	- Dirty Mind
+	- Controversary
+	- 1999
+		- "1999"
+	- Purple Rain
+		- "When Doves Cry"
+		- "Let's Go Crazy"
+		- "Purple Rain"
+	- Other successful albums
+- Janet Jackson
+	- Janet Jackson
+	- Dream Street
+	- Control
+		- Breaks with family, not under their management
+		- "When I Think of You"
+		- "Let's Wait Awhile"
+		- "Control"
+			- Open declaration of independence
+		- "Nasty"
+			- Break with teenage idol
+	- Janet Jackson's Rhythem Nation 1814
+	- Continuation of Madonna sexuality and rebellion
+
+### MTV Success Stories
+- Duran Duran
+ - "Hungry Like a Wolf"
+- Culture Club
+	- "Do You Really Want to Hit Me"
+- Eurythmics
+	- "Sweet Dreams (Are Made of This)"
+- Tears for Fears
+	- Songs from the Big Chair
+		- "Everybody Wants to Rule the World"
+- All female artists, a lot of women participating in music
+- The Go-Gos
+	- Beauty and the Beat
+		- "We Got the Beat"
+- The Bangles
+	- Different Light
+		- "Manic Monday"
+		- "Walk Like Egyptian"
+- Cyndi Lauper
+	- She's so Unusual
+	- True Colors
+
+### New Traditionalists and New Wave
+- Blend into the mainstream rock
+- Tom Petty and the Heartbreakers
+	- Hard Promises
+	- Southern Accents
+	- Full Moon Fever
+		- "Free Fallin"
+- Bruce Springsteen
+	- The River
+	- Born in the USA
+- John Mellencamp
+	- "I Need a Lover"
+	- American Fool
+		- "Hurts So Good"
+		- "Jack and Diana"
+- Dire Straits
+	- "Sultans of Swing"
+	- Brothers and Arms
+		- "Money for Nothing"
+- The Police
+	- Synchronicity
+		- "Every Breath You Take"
+- U2
+	- The Joshua Tree
+		- "With or Without You"
+
+### New Acts Old Styles and Blue-Eyed Soul
+- Based their sound on earlier styles
+- AC/DC
+	- Highway to Hell
+	- Back in Black
+- Huey Lewis and the News
+	- "Hip to be Square"
+	- "The Power of Love"
+- Hall and Oates
+	- "Sara Smile"
+	- "Rich Girl"
+	- Private Eyes
+- George Michael
+	- Make It Big
+	- Faith
+- Michael Bolton
+	- "When a Man Loves a Woman"
+	- Soul Provider
+
+### Dinosaurs Adapt and Thrive
+- Lot of 70s Band continue to have success in 80s
+- Genesis
+	- Invisable Touch
+- Phil Collisons
+	- No Jacket Required
+- Peter Gabriel
+	- So
+		- "Sledgehammer"
+		- "Big Time"
+- Mike and Mechanics
+	- The Living Years
+- Yes
+	- 90125
+		- "Owner of a Lonely Heart"
+- Asia
+	- Asia
+		- "Heat of the Moment"
+- Foreigner
+	- Agent Provocateur
+- Styx
+	- Kilory Was Here
+- Boston
+	- Third Stage
+- David Bowie
+	- Let's Dance
+- Billie Joe
+	- An Innocent Man
+- Paul MacCartney
+	- Tug of War
+- The Rolling Stones
+	- Steel Wheels
+
+### Conclusion
+- Do the visual challenge the music
+- Extend hippie aesthetic
+- Musicians enjoy longer period of success
+
+## Week 5
+### Heavy Metal Grows
+- Prototypes
+	- Iron Butterfly
+	- Black Sabbath
+	- Deep Purple
+	- Led Zeppelin
+	- Kiss / Alice Cooper
+- The image of heavy metal
+	- Working class
+	- Headbangers
+	- Unsophisticated
+	- Both positive and negative
+- New wave of british heavy metal
+	- Guitar driven sound
+	- Virtuosity
+	- Heavy drum beats
+- Black Sabbath
+	- Heaven and Hell
+	- Mob Rules
+- Ozzy Osbourne
+	- Blizzard of Ozz
+	- Diary of a Mad Man
+- Judas Priest
+	- Hell Bent for Leather
+	- British Steel
+		- "Breaking the Law"
+		- "Living after Midnight"
+- Iron Maiden
+	- Number of the Beast
+- Def Leppard
+	- High and Dry
+	- Pyromania
+		- "Photograph"
+- MotorHead
+	- Ace of Spades
+- Los Angeles Metal
+	- High screaming vocal
+	- Big drum sound
+	- Athethm kind vocal in chorus setting up for stadium
+- Van Halen
+	- 1984
+	- 5150
+		- "Why Can't This Be Love"
+- Quite Riot
+	- Metal Health
+- Ratt
+	- Out of the Cellar
+- Mottey Crue
+	- Shout at the Devil
+	- Dr. Feelgood
+
+### Heavy Metal Hits Big Time
+- Bon Jovi
+	- not really conceived as heavy metal
+	- Slippery When Wet
+		- "You Give Love to a Bad Name"
+		- "Living on a Prayer"
+		- "Wanted Dead of Alive"
+- Guns n' Roses
+	- not really conceived as heavy metal
+	- Appetite for Destruction
+- L.A. Hair Bands
+	- Dramatic dress up
+	- Poison
+		- Look What the Cat Dragged In
+			- "Talk Dirty to Me"
+		- Open up and Say ... Ahh
+			- "Every Rose Has Its Thorn"
+
+### Heavy Metal Ambition
+- Recapture hippie aesthetic
+- Speed metal, thrash metal
+- Metallica
+	- Kill em All
+	- Ride the Lighten
+	- Master of Puppets
+	- ... And Justice for All
+		- Big Brak
+		- "One"
+- Megadeth
+	- Killing is My Business and Business is Good
+	- Peace Sells but Who's Buying
+	- Countdown to Extinction
+		- Commerial success
+- Anthrax
+	- Among the Living
+- Slayer
+	- Reign the Blood
+- Virtuosity, long guitar solo
+
+### The Roots of Rap
+- Hip hop culture
+	- Rap music
+	- Graffiti
+	- Break dancing
+	- Dress
+- Early rap arises from neighbourhood parties
+- Have roots from Jamaican music
+- DJ Kool Herc
+	- MC
+	- Coke La Rock
+	- Encourage young people to do a dancing which becomes break dancing
+	- Tech innovation
+		- Prolong break in between
+- Grandmaster Flash
+	- Punch phrasing
+	- Scratching
+- Afrika Bambaataa
+	- Universal Zulu Nation
+		- Unite people to stay away from bang activity
+	- Come up with "Hip Hop"
+- Still mostly live thing not a recording
+- Sylvia Robinson
+	- Micky & Sylvia
+	- Heard people chanting to Chic's song "Good Time"
+	- Decided to bring a record that will do this rapping
+	- Sugar Hill Gang
+		- "Rapper's Delight"
+- Kurtis Blow
+	- "The Breaks Part I"
+- Grandmaster Flash and the Furious Five
+	- "The Message"
+- These albums prove rap experience can be turned into vinyl
+
+### Rap Crosses Over
+- Need to get to white to make money
+- Russell Simmons and Rick Rubin
+	- Def Jam Recordings
+- LL Cool J
+	- Radio
+		- "I Can't Live Without My Radio"
+	- Bigger and Deffer
+		- "I Need Love"
+- Run-DMC
+	- Run-D.M.C.
+		- "Rock Box"
+	- King of Rock
+	- Raising Hell
+		- Breakthrough
+		- Cover of "Walk This Way" with Aerosmith
+- Beastie Boys
+	- Licensed to Ill
+		- "You Got Fight for the Right to Go to Party"
+
+### CNN for Black People
+- Bad guys, more agressive
+- "Gangsta Rap"
+- Ice-T
+	- "I'm Your Pusher"
+- N.W.A.
+	- Straight Outta Compton
+	- EFIL4ZAGGIN
+- Social and political critism
+- Boggies Down Productions
+	- Criminal Minded
+- Public Enemy
+	- It Takes a Nation of Millions to Hold Us Back
+		- "Don't Believe the Hype"
+	- Fear of a Black Planet
+		- "Fight the Power"
+- Queen Latifah
+	- All Hail the Queen
+		- "Ladies First"
+- MTV and Rap
+	- Yo! MTV Rap debuts at August 1988
+- Controversy over rap
+	- Rock dislikes rap
+		- Missing musicians like guitarist, bassist, drummer
+		- Don't have the context to understand
+			- Taking sound from machine has a long history
+
+### Punk Goes Hardcore
+- Developed out of Sex Pistols and Ramoes
+	- Loud, DIY styles
+	- Underground
+- Los Angeles
+- The discontented youth scene
+- Fear
+	- "New York's Alright If You Like Saxophones" on SNL, cut the show in half
+	- Anti authority
+- Black Flag
+	- Have own label SST
+	- Nervous Breakdown
+	- Damaged
+- Minuteman
+	- The Punch Line
+- Washington, D.C.
+- More intellectual debate oriented
+- Alcohol, drug free life style
+- Bad Brains
+	- Bad Brains
+- Ian Mackaye
+	- Teen Idles
+	- Minor Threats
+- Twin Cities
+- More accessible, less angry
+- The Replacements
+	- Signed to label Twin/Tone
+	- Hootenanny
+		- "Color Me Impressed"
+- Husker Du
+	- Zen Arcade
+- Bring indie hardcore sub culture into public view
+- Both featured on MTV show 120 minutes
+	- Dedicated to indie
+
+### Indie Rock Underground
+- College rock
+	- Only received in college
+	- Less restrictions
+- R.E.M.
+	- Document
+		- "The One I Love"
+	- Green
+		- "Stand"
+	- Out of Time
+		- "Losing My Religion"
+		- "Shiny Happy People"
+- Dinosaur Jr.
+	- Your Living All Over Me
+	- Bug
+	- Green Mind
+- Pixies
+	- Sufer Rosa
+	- Doolittle
+- Sonic Youth
+	- Daydream Nation
+	- Enigma
+- The Smiths
+	- From UK
+	- The Smiths
+		- "What Difference Does It Make"
+	- Meat Is Murder
+	- The Queen Is Dead
+
+## Week 6
+### The Rise of Alternative Rock
+- Spurred by Nivana's Nevermind
+- Developed out of indie, underground Punk scence
+- Nirvana
+	- Seattle "Grunge"
+	- Bleach
+	- Nevermind
+		- "Smells Like Teen Spirit"
+	- In Utero
+- Pearl Jam
+	- Ten
+	- More metal influenced
+	- Anti commercial
+- Soundgarden
+	- Superunknown
+- Alice in Chains
+	- Dirt
+- Faith No More
+	- The Real Thing
+		- "Epic"
+	- Angel Dust
+- Red Hot Chili Peppers
+	- Blood Sugar Sex Magik
+		- "Under The Bridge"
+		- "Give It Away"
+- Stone Temple Pilots
+	- Core
+- Smashing Pumpkins
+	- prog like influence
+	- Siamese Dreams
+	- Mellon Collie and the Infinite Sadness
+- Live
+	- Throwing Copper
+- Creed
+	- "With Arms Open Wide"
+- Lifehouse
+	- "Hanging By the House"
+- Foo Fighters
+- Weezer
+	- "Buddy Holly"
+- Green Day
+	- Punk looking
+	- Dookie
+		- "When I Come Around"
+- Pop punk
+	- The Offspring
+	- Blink 182
+- Ska Revival
+	- Sublime
+	- The Mighty Mighty Bosstones
+	- No Doubt
+		- Tragic Kingdom
+			- "Just a Girl"
+			- "Don't Speak"
+- Alternative rock has become one of the mainstream rock
+
+### Indie Rock
+- More dedicated to not selling out, DIY
+- Lo-Fi movement
+- Label: Metador(New York)
+- Pavement
+	- Slanted and Enchanted
+- Guided by Voices
+	- Bee Thousand
+- Elliot Smith
+	- Roman Candle
+- Label: Merge Records(Chapel Hills)
+- Different styles
+- Superchunk
+	- No Pocky for Kitty
+- Neutral Milk Hotel
+	- In the Aeroplane over the Sea
+- The Magnetic Fields
+	- 69 Lone Songs
+- Noise pop
+- Yo La Tengo
+	- Painful
+	- I Can Hear the Heart Beating As One
+		- "Moby Octopad"
+- My Bloody Valentine
+	- Loveless
+		- "When You Sleep"
+		- "Only Shallow"
+- Alt-country
+- Uncle Tupelo
+	- No Depression
+		- "Screen Door"
+- Whiskytown
+	- Faithless Street
+- Beck
+	- "Loser"
+	- Mellow Gold
+	- Odelay
+
+### Metal and Alternative Extensions
+- Rap and rock fusion
+- Rage Against the Machine
+	- Rage Against the Machine
+	- Evil Empire
+- Korn
+	- Signature 7 string guitar (bass string)
+	- Life Is Peachy
+	- Follow the Leader
+- Limp Bizkit
+	- 7 string, more screaming
+	- Three Dollar Bill, You'all
+	- Significant Other
+- System of a Down
+	- Heavy sound
+	- System of a Down
+	- Toxicity
+- Kid Rock
+	- Devil Without a Cause
+- Industrial style
+	- Blends electronic sources
+	- Anti comformity
+- Nine Inch Nails
+	- The Downward Spiral
+- Marilyn Manson
+	- Ironic, offending to conservative people
+	- Antichrist Superstar
+	- Mechanical Animals
+
+### Hip Hop in the 1990s
+- Developed into many sub styles
+- Development of digital sampling technologies
+- Death Row Records
+- Dr. Dre
+	- The Chronic
+- Snoop Doggy Dogg
+	- 'Nuthin' But a 'G' Thang
+- Bad Boy Records
+- The Notorious B.I.G.
+	- Life After Death
+- Wu-Tang Clan
+	- Enter the Wu-Tang(36 Chambers)
+	- Wu Tang Forever
+- Eminem
+	- The Slim Shady LP
+	- The Marshall Mathers LP
+- Beastie Boys
+	- Hello Nasty
+- De La Soul
+	- Art Official Interlligence: Mosaic Thump
+- Fugees
+	- The Score
+		- "Killing Me Softly"
+- Lauryn Hill
+	- The Miseducation of Lauryn Hill
+		- "Doo Wop (That Thing)"
+
+### Classic Rock
+- Transformed to CD
+- Try to talk to customers to rebuy records on CD
+- Radio Consulting
+	- Only pick tracks that people will listen to
+	- Give people image of rock in history
+- Rockumentaries
+	- MTV, VH1
+	- Popup Video
+	- Behind the Music
+	- Legends
+	- PBS
+	- Time-Line
+	- Beatles Anthology
+- Rock and Roll Hall of Fame
+- Experience Music Project
+- The Beatles
+	- "Free as a Bird"
+	- "Real Love"
+- Rolling Stones
+	- Voodoo Lounge
+- Eric Clapton
+	- Unplugged
+		- "Tears in the Heaven"
+- Peter Gabriel
+	- Us
+- Santana
+	- Supernature
+		- "Smooth"
+- Sting
+	- Ten Summoner's Tales
+- Bruce Springsteen
+	- Greatest Hits
+- U2
+	- Zooropa
+
+### New Rock Traditions
+- Embrace tradition but upgrade them
+- Jam bands
+	- HORDE - groups together do a tour
+- Dave Matthews Band
+- Britpop
+- Oasis
+	- Very Beatles influenced
+	- Definitely Maybe
+	- (What's the Story) Morning Glory?
+- Radiohead
+	- Pink Floyd influenced
+	- OK Computer
+- Rock is still pop
+- Sheryl Crow
+	- Tuesday Night Music Club
+		- "All I Want to Do"
+		- "Strong Enough"
+- Hootie and the Blowfish
+	- Cracked Rear View
+		- "Hold My Hand"
+		- "Let Her Cry"
+		- "Only Want to be With You"
+- Counting Crows
+	- August and Everything After
+- The Wallflowers
+	- Bringing Down the Horses
+		- "One Headlight"
+- Matchbox Twenty
+	- You Or Someone Like You
+		- "Push"
+		- "3 AM"
+- Third Eye Blind
+	- "Semi-Charmed Life"
+	- "How is it Going to Be"
+
+### Female Singer-Songwriters
+- Tori Amos
+	- Little Earthquakes
+		- "Crusify"
+	- Under the Pink
+	- Boys for Pele
+- The Indigo Girls
+	- "Closer to Fine"
+	- Swamp Ophelia
+- Sarah McLachlan
+	- Fumbling Towards Ecstasy
+	- Surfacing
+		- "Adia"
+		- "Angel"
+	- Lilith Fair
+		- Create scene around femail singer-songwriters
+- Jewel
+	- Pieces of You
+		- "You Were Meant for Me"
+- Alanis Morissette
+	- Jagged Little Pill
+		- "You Ought to Know"
+		- "Ironic"
+- Indie Scene
+- Liz Phair
+	- Exile in Guyville
+	- Whip-Smart
+- Ani DiFranco
+	- Release on own label
+	- Not a Pretty Gril
+	- Little Plastic Castle
+- Sleater-Kinney
+	- Riot grrrl movement
+	- Call the Doctors
+	- Dig Me Out
+
+### Teen Idols
+- Artists to appeal to teen audience especially girls
+- Boyz II Man
+	- Ealier styles of rythme blues
+	- Cooleyhighharmony
+	- "End of the Road"
+- Boy bands
+- Backstreet Boys
+	- Backstreet Boys
+		- "As Long As You Love Me"
+	- Millennium
+- 'N Sync
+	- *NSYNC
+	- No Strings Attached
+- Girl Band
+- Spice Girls
+	- "Spicemania"
+	- "Wannabe"
+	- Spice
+	- Spice World
+		- "Spice Up Your Life"
+- Britney Spears
+	- Baby One More Time
+	- Oops ... I Did It Again
+- Christina Aguilera
+	- Christna Aguilera
+		- "Genie in a Bottle"
+		- "What A Girl Wants"
+
+### Electronic Dancing Music
+- Techno
+- Falls on DJ
+- Larry Levan
+	- "Garage Styles"
+- Frankie knuckles
+	- "House Style"
+- Belleville Three
+- UK scene
+- Moby, Orbital, Prodigy
+- Come back to US
+- The Chemical Brothers
+	- Dig Your Own Head
+- The Prodigy
+	- Fat of the Land
+- Moby
+	- Play
