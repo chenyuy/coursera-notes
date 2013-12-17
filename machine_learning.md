@@ -355,3 +355,66 @@ end;
 	- Use gradient checking, then disable it
 	- Use gradient descent or other advanced algorithm to minimize cost function
 		- Cost function is non-convext, so will probably stuck in local minimium
+
+## Week 7: Support Vector Machine
+### Optimization Goals
+- Cost function for SVM
+
+<div align="center"><img src="http://latex.codecogs.com/gif.latex?\min_{\theta}C\sum_{i=1}^{m}[y^{(i)}cost_{1}(\theta^{\intercal}x^{(i)}+(1-y^{(i)})cost_{0}(\theta^{\intercal}x^{(i)})]+\frac{1}{2}\sum_{i=1}^{n}\theta_{j}^2" /></div>
+
+- C is 1 / lambda
+- For cost 1, cost is 0 if z >= 1; for cost 0, cost is 0 if z <= -1
+- Output 1 or 0, not probability
+
+### Large Margin Intuition
+- If y = 1, we want z >= 1
+- If y = 0, we want z <= -1
+- Suppose C is very large, then we want the first term in cost function to be small
+	- Choose theta such that when y = 1, z >= 1, z <= -1 when y = 0
+	- Solve this, we will get a decision boudary that separates datasets at the maximum margin
+	- This is sensitive to outliers
+	- If we make C small, it is less sensitive to outliers
+
+### Kernels
+- We have the formula theta0 + theta1 * f1 + theta2 * f2 + ...
+- Predict 1 if the above formula >= 0
+- We choose some landmarks and have fi = similarity(x, li)
+	- Similarity function is the kernel
+	- For example, we can use a gaussian kernel: exp(-||xi - li||^2 / (2 * sigma^2))
+		- sigma controls the "width"
+	- If xi is close to li, fi is close to 1
+	- If xi is far away from li, fi is close to 0
+- Choosing the landmarks
+	- For every training example, choose a landmark at the exact same location
+- For every training example
+	- Have f1 = sim(xi, l1), f2 = sim(xi, l2), f3 = sim(xi, l3), ...
+	- Put these f into a vector, f0 = 1
+	- Predict 1 if theta' * f >= 0
+- Use some computational tricks
+	- Kernel is not used for other methods because the trick doesn't work well
+- Large C, high variance
+- Small C, low variance
+- Large sigma, features fi vary more smoothly. Higher bias, lower variance
+- Small sigma, features fi vary less smoothly. Lower bias, higher variance
+
+### Using SVM
+- Use software library
+- Have to choose
+	- Parameters
+	- Choice of kernel
+		- No kernel: theta0 + theta1 * x1 + ... + thetan * xn >= 0
+			If n is large and m is small, you can use no kernel
+		- Gaussian kernel
+			- Need to choose sigma
+			- If n is small and m is large
+			- Do perform feature scaling
+		- Not all similarity functions are valid kernel
+			- Must satisfy Mercer's Theorem
+- Multi-class SVM
+	- Use built-in functions in packages
+	- Use one-vs-all
+- Logistic regression vs SVM
+	- If n is large, use logistic regression or SVM with no kernel
+	- If n is small, m is intermediate, use SVM with Gaussian kernel
+	- If n is small, m is large, create/add more features, use logistic regression or SVM with no kernel
+	- Neural network tends to work well in all these settings, but is slow to train
