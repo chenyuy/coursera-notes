@@ -418,3 +418,91 @@ end;
 	- If n is small, m is intermediate, use SVM with Gaussian kernel
 	- If n is small, m is large, create/add more features, use logistic regression or SVM with no kernel
 	- Neural network tends to work well in all these settings, but is slow to train
+
+## Week 8: Clustering
+### K-means Algorithm
+#### Algorithm
+- Input: K(number of clusters), training set {x1, x2, ...}
+- Randomly initialize K cluster centroids
+- Repeat
+	- For every training example, assign it to the closest centroid
+	- For every cluster, compute a new centroid based on the mean of points assigned to the cluster
+	- Eliminate cluster with no points to it
+#### Optimization objective
+
+<div align="center"><img src="http://latex.codecogs.com/gif.latex?J(c^{(1)},\ldots,%20c^{(m)},\mu_{1},\ldots,\mu_(K})=\frac{1}{m}\sum_{i=1}^{m}\left\|x^{(i)}-\mu_{c^{(i)}}\right\|^2" /></div>
+
+- Find the set of parameters that minimize this cost function
+- The first part of the algorithm minimize it with respect to c
+- The second part of the algorithm minimize it with respect to centroid
+#### Random Initialization
+- Should have K < m
+- Randomly pick K training examples
+- Set centroids to be these examples
+- Depending on different initialization, K-mens can be at local optima
+	- Try multiple initialization
+	- Run K-means
+	- Compute cost functions
+	- Pick one with lowest cost
+	- Works well for K between 2 to 10
+	- If K is large, generally the first initialization will give a good result
+#### Choosing the number of clusters
+- Elbow method
+	- Vary K
+	- Plot K vs cost J
+	- Find a elbow that before the cost reduces rapidly but slowly after
+	- But many times there is no clear elbow
+- Evaluate K-means based on a metric for how well it performs for later purpose
+
+## Week 8: Dimensionality Reduction
+### Motivation
+- Data compression
+	- Reduce 2D to 1D, 3D to 2D, etc.
+	- Some features may be redundant or highly related
+	- Save memory and space
+	- Make learning algorithm faster
+- Visualization
+### Principal Component Analysis
+- Problem Formulation
+	- Try to find k vectors onto which to project data so that the projection error is minimized
+- Algorithm
+	- Preprocessing
+		- Compute mean of each feature
+		- Replace each training example with xj - meanj
+		- If different features are on different scale, scale features to have comparable range of values
+	- Suppose we want reduce from n-dimensions to k-dimensions
+		- Compute a covariance matrix
+		- Compute eigenvectors of covariance matrix
+		- U is the vectors we want: each column is the vector ui
+		- Use the first k column as u1, ... uk
+		- x = Ureduce' * x
+		- No x0 = 1 convention
+
+<div align="center"><img src="http://latex.codecogs.com/gif.latex?\Sigma=\frac{1}{m}\sum_{i=1}^{m}x^{(i)}x^{(i)\intercal}" /></div>
+
+```matlab
+[U, S, V] = svd(Sigma);
+Ureduce = U(:, 1:k);
+z = Ureduce' * x;
+```
+- Choosing number of principal components
+	- Average squared projection error: 1/m * sum(||x(i) - xapprox(i)||^2)
+	- Total variation in the data: 1/m * sum(||x(i)||^2)
+	- Their ratio(average error / variation) is <= 0.01
+	- 99% variance is retained
+	- Algorithm
+		- Try k = 1
+		- If ratio is <= 0.01, if so use this k, else try next k
+		- Alternatively, use the S matrix from svd
+			- For given k, ratio can be computed 1 - (sum(Sii) from 1 to k) / (sum(Sii) from 1 to n)
+			- Just need to run svd once and try different k until the ratio is small enough
+- Reconstruction from Compressed Representation
+	- xapprox = Ureduce * z, roughly equal to x
+- Use PCA to speedup some learning algorithms
+	- In supervised learning, the dimension of feature may be very large
+		- Apply PCA to the training set to get a new training set
+		- Map test data to the same dimension and make a prediction
+- Bad use of PCA: to prevent overfitting
+	- Regularization will work as well if you want to retain 99% of variance
+	- Will throw away useful information
+- Generally first try to run the whole thing with raw data, and use PCA only if this doesn't work well
