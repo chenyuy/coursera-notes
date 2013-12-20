@@ -485,6 +485,7 @@ end;
 Ureduce = U(:, 1:k);
 z = Ureduce' * x;
 ```
+
 - Choosing number of principal components
 	- Average squared projection error: 1/m * sum(||x(i) - xapprox(i)||^2)
 	- Total variation in the data: 1/m * sum(||x(i)||^2)
@@ -506,3 +507,87 @@ z = Ureduce' * x;
 	- Regularization will work as well if you want to retain 99% of variance
 	- Will throw away useful information
 - Generally first try to run the whole thing with raw data, and use PCA only if this doesn't work well
+
+## Week 9: Anomaly Detection
+### Motivation
+- Have a training dataset and xtest
+- Have a model p(x)
+- If p(xtest) < epsilon, flag as anomaly, else ok
+- Example uses
+	- Fraud detection
+	- Manufacturing
+	- Monitoring computer cluster and data center
+### Algorithm
+- Suppose we have training set with size m
+- Each example has n features
+- Choose features xi that you think might be indicators for anomaly
+- Compute mean and variance
+- p(x) = p(x1; mu1, sigma1)p(x2; mu2, sigma2)...p(xn; mu(n). sigma(n))
+	- Assume each feature has a Gaussian distribution
+- Anomaly if p(x) < epsilon
+### Developing and Evaluating Anomaly Detection System
+- Suppose we have some labeled data of anomalous and non-anomalous examples
+- We have training examples, usually normal
+- We have cross validation set and test set that can include anomalous examples
+- On a cross-validation or test example, predict y
+- Possible metrics: true positive false positive, false negative, true negative, precision/recall, F-1 score
+- Can also use cross validation set to set the value of epsilon
+### Vs Supervised Learning
+- You should use anomaly detection
+	- If you have very small number of positive examples and large number of negative examples, 
+	- Many different types of anomalies; hard for algorithm to learn
+	- Future anomaly may not like any seen so far
+- You should use supervised learning
+	- If you have large number of positive and negative examples
+	- Enough positive examples to learn
+	- Future positive examples may be similar to the ones already seen
+### Choosing Features
+- For non-gaussian features
+	- Take a log of data
+	- Transform data into gaussian-like data
+- Error analysis for anomaly detection
+	- Want p(x) large for normal examples but small for anomaly
+	- Most common problem: p(x) is comparable for both normal and anomalous examples
+		- Look at the failing example, create some new features to capture that
+- Choose features that may take on unusually large or small values in the case of anomaly
+
+## Week 9: Recommender System
+### Content Based Recommendation
+- For each user perform a linear regression to learn a set of parameters
+- Have features for each content
+- Use the parameters and features to predict
+- Learn parameters for all users; use gradient descent
+- Content features are not always available
+
+<div align="center"><img src="http://latex.codecogs.com/gif.latex?\min_{\theta^{(1)},\hdots,\theta^{(n_u)}}\frac{1}{2}\sum_{j=1}^{n_u}\sum_{i:r(i,j)=1}((\theta^{(j)})^\intercal%20x^{(i)}-y^{(i,j)})^2+\frac{\lambda}{2}\sum_{j=1}^{n_u}\sum_{k=1}^{n}(\theta_k^{(j)})^2" /></div>
+
+### Collaborative Filtering
+- Given parameters, to learn content feature vector
+- Find the content feature vector such that the prediction is not far from the true value
+
+<div align="center"><img src="http://latex.codecogs.com/gif.latex?\min_{x^{(i)},\hdots,x^{(n_{m})}}\frac{1}{2}\sum_{i=1}^{n_{m}}\sum_{j:r(i,j)=1}((\theta^{(j)})^\intercal%20x^{(i)}-y^{(i,j)})^2+\frac{\lambda}{2}\sum_{i=1}^{n_{m}}\sum_{k=1}^{n}(x_{k}^{(i)})^2" /></div>
+
+- Can guess parameters and learn content features
+- Then use content features to learn parameters
+- Repeat
+- Algorithm
+	- Minimize x(1), x(2), ... and theta simultaneously
+	- Initialize x and theta to small random values
+	- Minimize the cost function
+	- For a user with parameters theta and learned content features, make a prediction
+
+<div align="center" ><img src="http://latex.codecogs.com/gif.latex?\min_{x^{(i)},\hdots,x^{(n_{m})},\theta^{(1)},\hdots,\theta^{(n_u)}}\frac{1}{2}\sum_{(i,%20j):r(i,j)=1}((\theta^{(j)})^\intercal%20x^{(i)}-y^{(i,j)})^2+\frac{\lambda}{2}\sum_{i=1}^{n_{m}}\sum_{k=1}^{n}(x_{k}^{(i)})^2+\frac{\lambda}{2}\sum_{j=1}^{n_u}\sum_{k=1}^{n}(\theta_k^{(j)})^2" /></div>
+
+### Vectorization
+- Low rank matrix factorization
+	- Have a matrix X where each row is a content features vector
+	- Have a matrix Theta where each row is a parameter vector for each user
+	- X * Theta' gives the result
+- Find related movies
+	- For each product, we learn a feature vector
+	- Find movies such that the distance between their feature vectors is small
+### Implementation Detail: Mean Normalization
+- For a user who has not rated any movie, the parameters learned will be all 0
+- Subtract each rating for a movie by the average rating for that
+- Use the new ratings to learn parameters and features
+- For user, make a prediction using the learned parameters and features, then add the mean
