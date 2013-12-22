@@ -550,6 +550,34 @@ z = Ureduce' * x;
 	- Most common problem: p(x) is comparable for both normal and anomalous examples
 		- Look at the failing example, create some new features to capture that
 - Choose features that may take on unusually large or small values in the case of anomaly
+### Multivariate Gaussian Distribution
+- Model all variables altogether, not separately
+- Parameters: mean and covariance matrix
+- Can be model corelation between data
+
+<div align="center"><img src="http://latex.codecogs.com/gif.latex?p(x;\mu,%20\Sigma)=\frac{1}{(2\pi)^{\frac{n}{2}}|\Sigma|^{\frac{1}{2}}}exp^{(-\frac{1}{2}(x-\mu)^\intercal%20\Sigma^{-1}(x-\mu))}"></div>
+
+- Parameter fitting:
+
+<div align="center"><img src="http://latex.codecogs.com/gif.latex?\mu=\frac{1}{m}\sum_{i=1}^{m}x^{(i)}" /></div>
+<div align="center"><img src="http://latex.codecogs.com/gif.latex?\Sigma=\frac{1}{m}\sum_{i=1}^{m}(x^{(i)}-\mu)(x^{(i)}-\mu)^\intercal" /></div>
+
+- Algorithm:
+	- Fit model
+	- Given a test example, compute p(x), flag anomaly if p(x) is small
+- Relationship to original model:
+	- Axies aligned with X and Y
+	- Covariance matrix must have 0 on off diagnal
+- Use cases
+	- Original model
+		- Manually create features that capture anomaly
+		- Computationaly cheaper, scale better to larger n
+		- Ok if small training examples
+	- Multivariate Gaussian
+		- Automatically capture correlations between different features
+		- Computationaly expensive
+		- Must have m > n, or covariance matrix is not invertible
+		- If you have redudant features, covariance matrix is not invertible
 
 ## Week 9: Recommender System
 ### Content Based Recommendation
