@@ -206,3 +206,44 @@ for(i <- until 3; j <- "abc") println(i + " " + j)
 // Translates to
 (1 until 3) foreach (i => "abc" foreach (j => println(i + " " + j)))
 ```
+
+## Week 3
+### Monad and Effects
+- Sequential computation may fail
+	- Make the failure explict
+
+```scala
+// Instead of type T => S
+// We use type T => Try[S]
+
+abstract class Try[T]
+case class Success[T](elem: T) extends Try[T]
+case class Failure(t: Throwable) extends Try[Nothing]
+
+object Try {
+	def apply(r :=> T): Try[T] = {
+		try { Success(r) }
+		catch { case t => Failure(t) }
+	}
+}
+
+def map[S](f: T=>S): Try[S] = this match {
+	case Success(value) => Try(f(value))
+	case failure @ Failure(t) => failure
+}
+```
+- `Try` is a monad that handles exception
+
+### Latency as an effect
+
+```scala
+trait Future[T] {
+	def onComplete(callback: Try[T] => Unit)
+		(implicit executor: ExecutionContext): Unit
+}
+
+object Future {
+	def apply(body :=> T)
+		(implicit executor: ExecutionContext): Future[T]
+}
+```
