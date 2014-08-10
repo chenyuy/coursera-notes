@@ -119,3 +119,16 @@
    - One ledger line above is middle C
 - Alto Clef
 - Tenor Clef
+
+# Week 3
+### Rythmic Duration
+- Whole Note (Semibreve)
+- Half Note (Minim)
+- Quarter Note (Crotchet)
+- Eighth Note (Quaver)
+- Sixteenth Note (Semiquaver)
+### Tuplets
+### Ties & Dots
+### Meter
+### Anacrusis, Phrases and Structure
+### Form
