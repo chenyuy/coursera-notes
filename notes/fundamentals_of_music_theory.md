@@ -1,7 +1,8 @@
 # Week 1
 ## Musical Notes
-####Octave: The interval between two notes with one having twice of half of the frequency of the other
-####Semitone and tone
+### Octave
+- The interval between two notes with one having twice of half of the frequency of the other
+### Semitone and tone
 ### Scale
 - Tonic: letter name of the scale
 - Quality: Order of tones and semitones in a scale
@@ -9,6 +10,7 @@
 - Ionian Mode
 	- C Major: C D E F G A B C
 	- Quality: T T S T T T S (T = Tone, S = Semitone)
+	- Major Scale
 - Aeolian Mode
 	- A B C D E F G A
 	- Quality: T S T T S T T
@@ -34,8 +36,12 @@
 - Diminished fifth - 6 semitones from fifth
 - Major third - 4 semitones from third
 - Minor third - 3 semitones from third
-- Major triad - perfect fifth + major third
-- Minor triad - perfect fifth + minor third
+- Major chord
+	- perfect fifth + major third
+	- Major triad if the chord has three notes
+- Minor chord
+	- perfect fifth + minor third
+	- Minor triad if the chord has three notes
 - Diminished triad - diminished fifth + minor third
 - In A minor scale
 	- A B C D E
