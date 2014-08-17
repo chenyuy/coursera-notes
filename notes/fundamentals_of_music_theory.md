@@ -120,6 +120,7 @@
   - Descending: natural minor
 - Relative major
   - A minor third above the tonic of the minor
+- **Relative keys share the same key signature**
 
 #### Intervals
 - Perfect Unison: two exact same notes
