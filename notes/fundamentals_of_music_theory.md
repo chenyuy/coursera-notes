@@ -9,28 +9,29 @@
 - Quality: Order of tones and semitones in a scale
 - Diatonic Scale: 7 notes with some pattern of 5 tones and 2 semitones
 - Ionian Mode
-	- C Major: C D E F G A B C
-	- Quality: T T S T T T S (T = Tone, S = Semitone)
-	- Major Scale
+  - C Major: C D E F G A B C
+  - Quality: T T S T T T S (T = Tone, S = Semitone)
+  - Major Scale
 - Aeolian Mode
-	- A B C D E F G A
-	- Quality: T S T T S T T
-	- Natural Minor Scale
+  - A B C D E F G A
+  - Quality: T S T T S T T
+  - Natural Minor Scale
 - Dorian Mode
-	- Quality: T S T T T S T
-	- D E F G A B C D
+  - Quality: T S T T T S T
+  - D E F G A B C D
 - Phrygian Mode
-	- Quality: S T T T S T T
-	- E F G A B C D E
+  - Quality: S T T T S T T
+  - E F G A B C D E
 - Lydian Mode
-	- Quality: T T T S T T S
-	- F G A B C D E F
+  - Quality: T T T S T T S
+  - F G A B C D E F
 - Mixolydian Mode
-	- Quality: T T S T T S T
-	- G A B C D E F G
+  - Quality: T T S T T S T
+  - G A B C D E F G
 - Locrian Mode
-	- Quality: S T T S T T T
-	- B C D E F G A B
+  - Quality: S T T S T T T
+  - B C D E F G A B
+
 ### Chords
 - Triad - three notes
 - Perfect fifth - 7 semitones from fifth
@@ -38,36 +39,37 @@
 - Major third - 4 semitones from third
 - Minor third - 3 semitones from third
 - Major chord
-	- perfect fifth + major third
-	- Major triad if the chord has three notes
+  - perfect fifth + major third
+  - Major triad if the chord has three notes
 - Minor chord
-	- perfect fifth + minor third
-	- Minor triad if the chord has three notes
+  - perfect fifth + minor third
+  - Minor triad if the chord has three notes
 - Diminished triad - diminished fifth + minor third
 - In A minor scale
-	- A B C D E
-		- T S T T
-		- 7 semitones
-		- A to C
-			- 3 semitones
-		- Amin: A C E
+  - A B C D E
+    - T S T T
+    - 7 semitones
+    - A to C
+      - 3 semitones
+    - Amin: A C E
 - In C major scale
-	- C D E F G
-		- T T S T
-		- 7 semitones
-		- C D E
-			- 4 semitones
-		- Cmaj: C E G
-			- perfect fifth + major third = major triad
+  - C D E F G
+    - T T S T
+    - 7 semitones
+    - C D E
+      - 4 semitones
+    - Cmaj: C E G
+      - perfect fifth + major third = major triad
+
 ### Primary
 - Tonic triad
-	- Built on first scale degree of a diatonic scale
+  - Built on first scale degree of a diatonic scale
 - Subdominant triad
-	- Built on the fourth note
-	- In the case of C major, subdominant will be F major
+  - Built on the fourth note
+  - In the case of C major, subdominant will be F major
 - Dominant tria
-	- Built on the fifth note
-	- In the case of C major, dominant will be G major
+  - Built on the fifth note
+  - In the case of C major, dominant will be G major
 - In hamonizing music, it is common to have the melodic note a member of a chord that is backing it
 
 # Week2
@@ -87,21 +89,28 @@
 #### If we use notes from C major scale for music, we say it is in the key of C major
 #### Key
 - related to the feelings
+
 #### Key Signatures
-- tell which notes should be sharp, which notes should be flat
-- C Major: no sharp and no flat
-- G Major: F#
-- D Major: F#, C#
-- Circle of fifth
+- Tell which notes should be sharp, which notes should be flat by their positions
+  - C Major: no sharp and no flat
+  - G Major: F#
+  - D Major: F#, C#
+- [Circle of fifth](https://www.dropbox.com/s/yf8sy6qcft8hjr0/Circle%20of%205ths.png)
   - Clockwise, the next major is the fifth to the current one
   - Counter clockwise, the next major is the fourth to the current one
+  - When sharps appear in a key signature, they always appear in the order of F C G D A E B (clockwise around the circle)
+  - When flats appear in a key signature, they always appear in the order of B E A D G C F (counter clockwise)
+  - When you see a key signature with *x* sharps, go *x* steps from C closewise and get the key
+  - When you see a key signature with *x* flats, go *x* steps from C counter clockwise and get the key
 - Accidental: use a note that is not supposed to be in the major
   - Put # and b to the note to indicate a sharp or flat; affects the whole bar
   - Use the natural symbol to cancel the previous instruction on using # or b for the whole bar
 
 #### Minor Keys
-- 6th degree is what minor scale is built from
-- Natural Minor
+- Relative minor
+  - 6th degree is what minor scale is built from
+  - The key has the same key signature as the note it is built from and has the same notes. But orienting on a different key changes the internal relationship
+- Natural Minor (Aeolian Mode)
   - Take notes from the major and start from the relative minor
 - Harmonic Minor
   - Raised a semi tone on 7th
@@ -109,11 +118,13 @@
 - Melodic Minor
   - Ascending: Keep raised 7th, also raise 6th a semi tone
   - Descending: natural minor
+- Relative major
+  - A minor third above the tonic of the minor
 
 #### Intervals
 - Perfect Unison: two exact same notes
-- Major 2nd, 3rd, 6th, 7th
-- Perfect 4th, 5th, 8/ve
+- Distance between first and 2nd, 3rd, 6th, 7th is Major 2nd, 3rd, 6th, 7th
+- Distance between first and 4th, 5th and 8/ve is Perfect 4th, 5th, 8/ve
    - Intervals are same for all major and minor keys
 - Minor intervals
    - Count to figure out it is 2nd, 3rd, 4th, etc
