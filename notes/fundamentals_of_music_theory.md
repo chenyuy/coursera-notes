@@ -153,8 +153,47 @@
 - Quarter Note (Crotchet)
 - Eighth Note (Quaver)
 - Sixteenth Note (Semiquaver)
+
 ### Tuplets
+- The number indicates a ratio to the next lower normal value
+  - A quintuplet indicated with the numeral 5 means that five of the indicated note value total the duration normally occupied by 4
+  - Sometimes we write explicitly the ratio like 4:3, 7:11, etc.
+
 ### Ties & Dots
+- Tie
+  - Extend a duration of a note
+  - Notes tied together are not played separately
+- Dot
+  - Extend the duration of the original note by half
+  - Can half multiple dots attached to a single note, each extending the duration of the original note by 1/2, 1/4, 1/8, etc
+- Pause
+  - Out of the time duration determined by the musician
+  - Commonly it is twice the duration of the note
+
 ### Meter
+- Numerator means how many beats per bar, denominator means the type of base note
+  - 4/4 means 4 quarter notes per bar
+  - 3/8 means 3 eighth notes per bar
+- Simple meter uses notes of 2, 4, 8, etc
+- Compound meter uses dotted notes so it is easy to subdivide them to 3
+  - 6/8 is 2 dotted quarter notes
+
 ### Anacrusis, Phrases and Structure
+- Anacrusis
+  - Start each of the phrases with a pick up note
+- Phrases
+  - A group of several bars that feels melodically complete
+- Motif
+  - Isolated short music signals easily recognized
+  - Always repeated
+
 ### Form
+- Binary form
+  - Two sections: A B
+  - B colsely related to A but gernerally in different key
+  - Repeatedly
+- Ternary form
+  - A B A
+  - Return of A is usually modified: A B A'
+- Rondo form
+- 12 Bar Blues
