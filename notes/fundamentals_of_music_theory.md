@@ -60,9 +60,14 @@
 		- Cmaj: C E G
 			- perfect fifth + major third = major triad
 ### Primary
-- C major: tonic triad
-- G major: dominant
-- F major: subdominant
+- Tonic triad
+	- Built on first scale degree of a diatonic scale
+- Subdominant triad
+	- Built on the fourth note
+	- In the case of C major, subdominant will be F major
+- Dominant tria
+	- Built on the fifth note
+	- In the case of C major, dominant will be G major
 - In hamonizing music, it is common to have the melodic note a member of a chord that is backing it
 
 # Week2
