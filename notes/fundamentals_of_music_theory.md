@@ -77,8 +77,10 @@
 
 #### Sharp
 - one semitone higher
+- 
 #### Flat
 - one semitone lower
+- 
 #### We need one note per letter in a scale
 
 ## Keys and Key Signatures
