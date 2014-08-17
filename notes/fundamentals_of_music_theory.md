@@ -2,6 +2,7 @@
 ## Musical Notes
 ### Octave
 - The interval between two notes with one having twice of half of the frequency of the other
+
 ### Semitone and tone
 ### Scale
 - Tonic: letter name of the scale
