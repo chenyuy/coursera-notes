@@ -197,3 +197,40 @@
   - Return of A is usually modified: A B A'
 - Rondo form
 - 12 Bar Blues
+
+## Week 4
+### Listening
+- Types of triad
+  - Major third + perfect fifth = major triad
+  - Minor third + perfect fifth = minor triad
+  - Major third  + augmented fifth = augmented triad
+  - Minor third + diminished fifth = diminished triad
+- Root note of a triad stands out most perceptually
+- Order of notes in triad can be changed
+  - Root position: root note is the lowest
+  - First inversion: third is the lowest
+  - Second inversion: fifth is the lowsst
+
+### Elaborating
+- Cadence: A melodic or harmonic progression that creates a sense of finality or a pause in the music
+  - Perfect cadence: sounds finished
+  - Imprefect cadence: sounds unfinished
+
+### Building
+- Build traids on scale
+  - For major scale: maj, min, min, maj, maj, min, dim
+  - For minor scale: min, dim, aug, min, maj, maj, dim
+- Use roman numerals to name chords, chord IV is on fourth, chord V is on fifth etc.
+  - Chord I: tonic
+  - Chord IV: subdominant
+  - Chord V: dominant
+
+### Harmonising
+- Common progression
+  - IV V I
+  - V V7 I
+  - II V7 I
+
+### Summary
+- Major seventh: 11 semitones
+- Minor seventh: 10 semitones
