@@ -22,3 +22,54 @@
 
 #### Code generation
   - Translate to other language (usually assembly)
+
+## Lexical analysis
+#### Goal
+- Recognize substrings corresponding to *tokens*
+  - Substrings are called the lexemes
+- Identify the *token class* of each lexeme
+  - Output a series of <token class, lexeme>, each one called *token*
+- Doing left-right scan of the input => lookahead sometimes required
+
+#### Token class
+- Identifier
+- Integer
+- Keyword
+- Whitespacee
+
+#### Regular language
+- Used determine what token class a set of strings is in
+- *Regular experssions* specify regular language
+
+#### Regular experssions
+- Two base cases
+  - Single character
+  - Epislon - empty string
+- Three compound experssions
+  - Union - A + B = {a | a in A} union {b |b in B}
+  - Concatenation - AB = {ab | a in A and b in B}
+  - Iteration
+    - A* = union(i >= 0)(A^i)
+    - A concatenated with itself i times
+    - Epsilon when i = 0
+
+#### Formal language
+- Definition: Let *Sigma* be a set of characters(an alphabet). A language over *Sigma* is a set of strings of characters drawn from *Sigma*
+- Meaning function L maps syntax to semantics
+  - For example, in regular experssions, L: Exp -> Sets of Strings
+    - L(A + B) = L(A) union L(B)
+    - L(AB) = {ab | a in L(A) and b in L(B)}
+  - Makes clear what is syntax, what is semantics
+  - Allows us to consider notation as a separate issue
+  - Expressions and meanings are not 1 to 1
+    - Multiple expressions have the same meaning
+    - Basis for compiler optimization
+
+#### Lexical specification
+- Use regular language to specify a language
+- An example for PASCAL
+  - digit = '0' + '1' +'2' + '3' + '4' + '5' + '6' + '7' + '8' + '9'
+  - digits = digit+ (same as digitdigit*)
+  - opt_fraction = ('.'digits)? (same as ('.digits') +epsilon)
+  - opt_exponent = ('E'('+' +'-' + epsilon)digits) + epsilon
+  - num = digits opt\_fraction opt\_exponent
