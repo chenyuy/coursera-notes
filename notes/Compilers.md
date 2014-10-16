@@ -89,3 +89,43 @@
 - DFA has no epsilon move; it accepts if ended in accept state
 - NFA has epsilon move: it accepts if any of the possible moves ends in accept state
 - DFA is faster to execute, but an equivalent NFA is smaller
+
+#### High level flow
+- Lexcial specification -> regular expressions
+- Regular expressions -> NFA
+- NFA -> DFA
+- DFA implemented as table look up
+
+#### Translate regular expressions to NFA
+- Epsilon
+  - A ->(epsilon) B
+- Single character (a)
+  - A ->(a) B
+- AB
+  - (final state in machine for A) ->(epsilon) (machine for B)
+- A + B
+  - state ->(epsilon) (machine for A or B) ->(epsilon) final state
+- A*
+  - state ->(epsilon) (machin for A or final state) ->(epsilon) (final state or start)
+
+#### Translate NFA to DFA
+- Epsilon closure
+  - For a given state, find all states that can be reached from the state by taking epsilon moves
+- a(X) = {y | x in X and x ->(a) y}
+- NFA
+  - States S
+  - Start s in S
+  - Final F in S
+- DFA
+  - States subsets of S
+  - Start epsilon closure of s
+  - Final {X | X intersect F not empty} (states in DFA are sets)
+  - X ->(a) Y if Y = epsilon closure of (a(X))
+  - Each state of DFA is the states that the NFA could get into on the same input
+
+#### Implementation of Finate Automata
+- DFA can be implemented in a table
+  - One dimension is state, the other is input, for every transition Si ->(a) Sk define T[i, a] = k
+- NFA can be implemented in a table as well
+  - Each entry will be a set of states
+  - Need to add epsilon column
