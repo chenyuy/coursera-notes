@@ -86,8 +86,13 @@
 
 #### Finite automata
 - Implementation of regular language
-- DFA has no epsilon move; it accepts if ended in accept state
-- NFA has epsilon move: it accepts if any of the possible moves ends in accept state
+- DFA
+  - One transition per input per state
+  - Have no epsilon move; it accepts if ended in accept state
+  - A special case of NFA
+- NFA
+  - Can have mutliple transitions for one input per state
+  - Have epsilon move: it accepts if any of the possible moves ends in accept state
 - DFA is faster to execute, but an equivalent NFA is smaller
 
 #### High level flow
