@@ -1,0 +1,23 @@
+Compilers
+Week One
+- Two implementations for programs
+  - Interpreters (online): Takes data and program and gives the output
+  - Compilers (offline): Takes program and produces an executable, which given data will produces the output
+- Fortan I is the first compiler. Modern compilers perserve its outline
+  - Lexical analysis
+  - Parsing
+  - Semantica analysis
+  - Optimization
+  - Code generation
+- Lexical analysis
+  - Divide program texts into words or tokens
+- Parsing
+  - To a diagramming structure (tree)
+- Semantica analysis
+  - Compilers check for inconsistency
+  - Languages have strict rules to avoid ambiguities
+- Optimization
+  - Run faster
+  - Less memory
+- Code generation
+  - Translate high level language to assembly code (usually)

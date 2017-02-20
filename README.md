@@ -10,3 +10,4 @@ A list of notes for classes I have taken (or am taking) at coursera.
 - [Principles of Reactive Programming](notes/principles_of_reactive_programming.md)
 - [Fundamentals of Music Theory](notes/fundamentals_of_music_theory.md)
 - [Financial Markets](notes/financial_markets.md)
+- [Compilers](notes/compilers.md)
