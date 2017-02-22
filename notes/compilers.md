@@ -39,3 +39,24 @@ Lexical analysis
   - Meaning function separates syntax and semantics
   - Meaning function allows us to consider notation as a separate issue
   - Meaning function is many to one. It means 1) Code optimization can be done to substitue a slower expression with a faster one while keeping the semantics 2) The same syntax cannot map to different semantics (ambiguous)
+- Lexical analysis uses regular expressions with small extensions
+  - Given a string x1...xi, check if it belongs L(R)
+  - If yes, remove the prefix and repeat
+  - To resolve ambiguities: 1) match strings as long as possible 2) have a priority list
+  - Error handling: have a error string set at last to catch all invalid strings
+- Finite automata is an implementation of regular expression. It has:
+  - An alphabet
+  - A set of states
+  - A start state
+  - Some accepting states
+  - Transition rules
+  - If input is exhausted and in an accepting state, accept. Otherwise reject.
+- Lexical specification -> regular expression -> NFA -> DFA -> implementation of DFA
+  - For each kind of regular expression, define a NFA
+  - Convert NFA to DFA
+    - e-closure of state A is all states that can be in when e transition is taken from A recursively
+    - Each state in DFA is a set of states of NFA
+    - Possible states of DFA: subsets of all states of NFA except empty set
+    - Start states: e-closure of start states of NFA
+    - Final states: all states X where X intersects final states of NFA is not empty
+    - Transition rules on given input a: for each NFA state in a DFA state, take transition a if possible, then take e-closure of them
