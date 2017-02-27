@@ -60,3 +60,6 @@ Lexical analysis
     - Start states: e-closure of start states of NFA
     - Final states: all states X where X intersects final states of NFA is not empty
     - Transition rules on given input a: for each NFA state in a DFA state, take transition a if possible, then take e-closure of them
+- Implementing a DFA
+  - Have a lookup table. Two dimensions: state and input
+  - Walk over the input string using the lookup table
